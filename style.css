@@ -1,0 +1,119 @@
+/* CSS Designed by Elizabeth Vine */
+
+/* ------------------- 			General				------------------- */
+ol li {
+    display: inline;
+    list-style-type: none;
+    padding: 3em;
+}
+
+li {
+	font-weight: normal;
+}
+
+section, p, body, header, h1, h2, h3, h4, legend, fieldset, textarea{
+	font-family: Verdana, Geneva, sans-serif;
+	color: #323232;
+}
+p, body, section, legend, fieldset, label, textarea{
+	font-size: .9em;
+}	
+	
+textarea {
+	width: 100%
+}
+
+/* ------------------- 			Navigation				------------------- */
+#navMenu {
+    background-color: #A101A6;
+    font-size: 1.2em;
+    padding: 0.76em;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav li a{
+    text-decoration: none;
+    color: #CFF700;
+}
+
+
+/* ------------------- 			Wrappers				------------------- */
+#wrapper {
+	background-color: #FFFFFF;
+}
+#mainContentWrapper {
+    background-color: #CF5FD3;
+	margin: 0 15%;
+    padding: 2em 2em .5em 2em;
+    overflow: hidden;
+}
+#confirmation {
+    background-color: #CF5FD3;
+	margin: 0 15%;
+    padding: 2em 2em .5em 2em;
+    overflow: hidden;
+}
+#register {
+    background-color: #CF5FD3;
+	margin: 0 15%;
+    padding: 2em 2em .5em 2em;
+    overflow: hidden;
+}
+#formWrapper {
+    background-color: #CF5FD3;
+	margin: 0 15%;
+    padding: 2em 2em .5em 2em;
+}
+
+/* ------------------- 			Header & Footer				------------------- */
+header {
+    background-color: #CF5FD3;
+    font-size: 1.2em;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+footer {
+    background-color: #CF5FD3;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    padding: .2em;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/* ------------------- 			Form				------------------- */
+form {
+	margin-left: 16%;
+    margin-right: 16%;
+}
+#txtPost {
+    height:10em;
+    width:30em;
+}
+
+/* ------------------- 			Posts				------------------- */
+section.userComment {
+	background-color: #EF5B71;
+	margin: 3% 6%;
+}
+#disclaimer {
+    font-size: .6em;
+    background-color: #CF5FD3;
+	margin: 0 15%;
+    padding: 2em 2em .5em 2em;
+    overflow: hidden;
+}
+/* ------------------- 			Pug Image				------------------- */
+#rubyImg {
+    border-radius: 30px;
+    float: right;
+    height: 30%;
+    margin-left: 1em;
+    width: 30%;
+}

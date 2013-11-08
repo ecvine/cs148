@@ -20,4 +20,5 @@ Please join the community and share your stories. Sign up and give us a try.
 
 <? include ("footer.php");
 include ("end.php");
+
 ?>

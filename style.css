@@ -11,9 +11,12 @@ li {
 	font-weight: normal;
 }
 
-section, p, body, header, h1, h2, h3, h4, legend, fieldset, textarea{
+section, p, body, header, legend, fieldset, textarea{
 	font-family: Verdana, Geneva, sans-serif;
 	color: #323232;
+}
+h1, h2, h3, h4 {
+	color: #9C9C9C;
 }
 p, body, section, legend, fieldset, label, textarea{
 	font-size: .9em;
@@ -25,7 +28,7 @@ textarea {
 
 /* ------------------- 			Navigation				------------------- */
 #navMenu {
-    background-color: #A101A6;
+    background-image: url('background.png');
     font-size: 1.2em;
     padding: 0.76em;
     text-align: center;
@@ -33,7 +36,8 @@ textarea {
 }
 nav li a{
     text-decoration: none;
-    color: #CFF700;
+    color: #936E8E;
+    font-weight: bold;
 }
 
 
@@ -42,33 +46,35 @@ nav li a{
 	background-color: #FFFFFF;
 }
 #mainContentWrapper {
-    background-color: #CF5FD3;
+   /* background-color: #CF5FD3;*/
+    background-color: #E3D9E1;
 	margin: 0 15%;
     padding: 2em 2em .5em 2em;
     overflow: hidden;
 }
 #confirmation {
-    background-color: #CF5FD3;
+    background-color: #E3D9E1;
 	margin: 0 15%;
     padding: 2em 2em .5em 2em;
     overflow: hidden;
 }
 #register {
-    background-color: #CF5FD3;
+    background-color: #E3D9E1;
 	margin: 0 15%;
     padding: 2em 2em .5em 2em;
     overflow: hidden;
 }
 #formWrapper {
-    background-color: #CF5FD3;
+    background-color: #E3D9E1;
 	margin: 0 15%;
     padding: 2em 2em .5em 2em;
 }
 
 /* ------------------- 			Header & Footer				------------------- */
 header {
-    background-color: #CF5FD3;
+    background-color: #E3D9E1;
     font-size: 1.2em;
+
     margin-left: 15%;
     margin-right: 15%;
     padding-bottom: 2em;
@@ -78,7 +84,7 @@ header {
     border-top-right-radius: 30px;
 }
 footer {
-    background-color: #CF5FD3;
+    background-color: #E3D9E1;
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
@@ -104,7 +110,7 @@ section.userComment {
 }
 #disclaimer {
     font-size: .6em;
-    background-color: #CF5FD3;
+    background-color: #E3D9E1;
 	margin: 0 15%;
     padding: 2em 2em .5em 2em;
     overflow: hidden;

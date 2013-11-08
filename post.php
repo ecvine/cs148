@@ -16,14 +16,14 @@ include ("menu.php");
 <form id="formWrapper">
 
 
-	<label for="txtUsername" class="required">Username</label>
-	
+	<label for="txtUsername" class="required">Username:</label><br>
 	<input id="txtUsername" name="txtUsername" value="" tabindex="110" size="25" maxlength="45" onfocus="this.select()" type="text">	
-			<br>
-	<label for="txtSubject" class="required">Subject</label>
+	<br><br>
+	
+	<label for="txtSubject" class="required">Subject:</label><br>
 	<input id="txtSubject" name="txtSubject" value="" tabindex="100" size="25" maxlength="100" onfocus="this.select()" type="text">
 	<br>
-	<p>Post <br>
+	<p>Post: <br>
 	<textarea rows="7" maxLength="5000" placeholder="Share your tails here." name="txtPost" onfocus="this.select()"></textarea></p>
 				
 	<input type="submit" id="btnSubmit" name="btnSubmit" value="Submit Post*" 
